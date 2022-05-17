@@ -18,7 +18,7 @@ let messages = [];
 let i = 0;
 
 function pushCatMessage(){
-    messages.push("Meow. ".repeat(getRandomNumber(0,6)));
+    messages.push("Meow. ".repeat(getRandomNumber(1,6)));
     let catSaid = document.createElement('div');
     let msg = document.querySelector("#chatBody")
     catSaid.className = "catMessage";
