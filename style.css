@@ -141,7 +141,7 @@ form input{
     border: none;
     width: 75px;
     height: 75px;
-    background-image: url("/Images/CatChat.jpg");
+    background-image: url("../Images/CatChat.jpg");
     cursor: pointer;
 
     position: relative;
